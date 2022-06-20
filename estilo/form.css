@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: 50%;
+    transform: translate(-50%,30%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-formulario);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 3px rgb(0, 0, 0);
+    width: 800px;
+    height: 600px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header{
+    background-color: var(--cor-header-formulario);
+    padding: 20px;
+}
+.form{
+    width: 100%;
+    height: 1008px;
+    background-color: var(--cor-pagina);
+}
+.form1{
+    padding: 20px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom:20px ;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border: 2px solid var(--cor-border-formulario);
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+.form-control i{
+    position: absolute;
+    top: 42px;
+    right: 12px;
+    visibility: hidden;
+}
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.form1 button{
+    background-color: var(--cor-botao-formulario);
+    border: 2px solid var(--cor-borda-botao-formulario);
+    color: var(--cor-texto-botao-formulario);
+    font-size: 14px;
+    width: 35%;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.botao a{
+    text-decoration: none;
+    color: var(--cor-texto-botao-formulario);
+    padding: 10px 109px;
+}
+.botao{
+    display: block;
+}
+/* erros e sucessos */
+.form-control.sucesso input{
+    border-color:var(--cor-sucesso-formulario) ;
+}
+.form-control.erro input{
+    border-color:var(--cor-erro-formulario) ;
+}
+.form-control.sucesso i.fa-check-circle{
+    color:var(--cor-sucesso-formulario) ;
+    visibility: visible;
+}
+.form-control.erro i.fa-exclamation-circle{
+    color:var(--cor-erro-formulario) ;
+    visibility: visible;
+}
+.form-control.erro small{
+    visibility: visible;
+    color: var(--cor-erro-formulario)
+}

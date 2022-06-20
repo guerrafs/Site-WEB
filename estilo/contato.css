@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#brasil{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    background-color: green;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    
+}
+.contato{
+    width: 100%;
+    background-image: linear-gradient(135deg,var(--cor-pagina),rgb(45, 61, 52));;
+    display: flex;
+    height:68.2vh;
+    flex-direction: column;
+    justify-content: center;
+}
+#duvida{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+#duvida h1{
+    color: black;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.box-contato {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+.box-inside {
+    display: block;
+    margin-inline: 10px;
+    height: 100px;
+    width: 150px;
+}
+.box-inside img {
+    height: 39px;
+    margin-left: 50%;
+    transform: translate(-50%, 0px);
+    padding-bottom: 10px;
+}
+.texto-figcaption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+figcaption a{
+    text-decoration:underline;
+    color: whitesmoke;
+}
+@media(max-width:767px){
+    #brasil{
+        display: none;
+    }
+    .contato{
+        width: 100%;
+        background-image: linear-gradient(193deg,var(--cor-pagina),rgb(45, 61, 52));;
+        display: flex;
+        height:68.2vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #duvida{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: whitesmoke;
+    }
+    #duvida h1{
+        color: black;
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+    .box-contato {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box-inside {
+        display: flex;
+        margin-inline: 10px;
+        height: 142px;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-inside img {
+        height: 50px;
+        margin-left: 50%;
+        transform: translate(-50%, 0px);
+        padding-bottom: 10px;
+    }
+    .texto-figcaption {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+    figcaption a{
+        text-decoration:underline;
+        color: whitesmoke;
+    }
+}
+@media (min-width: 992px){
+    .contato{
+        width: 100%;
+        background-image: linear-gradient(135deg,var(--cor-pagina),rgb(45, 61, 52));;
+        display: flex;
+        height:68.2vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #duvida{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: whitesmoke;
+    }
+    #duvida h1{
+        color: black;
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+    .box-contato {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .box-inside {
+        display: block;
+        margin-inline: 10px;
+        height: 100px;
+        width: 150px;
+    }
+    .box-inside img {
+        height: 39px;
+        margin-left: 50%;
+        transform: translate(-50%, 0px);
+        padding-bottom: 10px;
+    }
+    .texto-figcaption {
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+    figcaption a{
+        text-decoration:underline;
+        color: whitesmoke;
+    }
+}

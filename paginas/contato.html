@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/casimiroicone.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="../estilo/main.css">
+    <link rel="stylesheet" href="../estilo/quemsomos.css">
+    <link rel="stylesheet" href="../estilo/contato.css">
+</head>
+<body>
+    <header class="dp-menu">
+        <ul>
+            <li><a href="../index.html" target="_self">Home</a></li>
+            <li><a href="#">Produtos</a>
+                <ul>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">Notícias</a></li>
+                </ul>
+            </li>
+            <li><a href="formulario.html" target="_self">Seja um membro</a></li>
+            <li><a href="QuemSomos.html" target="_self">Quem somos</a></li>
+        </ul>
+    </header>
+    <section class="contato">
+        <canvas id="brasil"></canvas>
+        <script type="text/javascript">
+            var tela = document.querySelector('canvas');
+            var pincel = tela.getContext('2d');
+        
+            pincel.fillStyle = 'darkgreen';
+            pincel.fillRect(0,0, 300, 200);
+        
+            pincel.fillStyle = 'yellow';
+            pincel.beginPath();
+            pincel.moveTo(155,10);
+            pincel.lineTo(10,80);
+            pincel.lineTo(290,80);
+            pincel.fill();
+
+            pincel.fillStyle = 'yellow';
+            pincel.beginPath();
+            pincel.moveTo(155,145);
+            pincel.lineTo(10,80);
+            pincel.lineTo(290,80);
+            pincel.fill();
+        
+            pincel.fillStyle = 'blue';
+            pincel.beginPath();
+            pincel.arc(154,78,52,0,2*3.1415926535897932384626433832795);
+
+            pincel.fill();       
+        </script>
+    
+        <audio controls autoplay class="audio">
+            <source src="/audio/XIII.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+        <article id="duvida">
+            <h1>Entre em contato conosco.</h1>  
+            <p>Possui alguma dúvida? Fale com um de nossos atendentes</p>
+        </article>
+        <section class="box-contato">
+            <article class="box-inside">
+               <figure>
+                   <img src="../img/wpp.png" alt="">
+                   <figcaption class="texto-figcaption">Mande mensagem</figcaption>
+                   <figcaption class="texto-figcaption"><a href="#">(99) 99999-9999</a></figcaption>
+               </figure>
+            </article>
+            <article class="box-inside">
+                <figure>
+                    <img src="../img/telef.png" alt="">
+                    <figcaption class="texto-figcaption">Ligue</figcaption>
+                   <figcaption class="texto-figcaption"><a href="#">(99) 99999-9999</a></figcaption>
+                </figure>
+            </article>
+            <article class="box-inside">
+                <figure>
+                    <img src="../img/messenger.png" alt="">
+                    <figcaption class="texto-figcaption">Facebook</figcaption>
+                   <figcaption class="texto-figcaption"><a href="#">Facebook Message</a></figcaption>
+                </figure>
+            </article>
+            <article class="box-inside">
+                <figure>
+                    <img src="../img/email.png" alt="">
+                    <figcaption class="texto-figcaption">E-mail</figcaption>
+                   <figcaption class="texto-figcaption"><a href="#">Email</a></figcaption>
+                </figure>
+            </article>
+        </section>
+    </section>
+    <footer class="fot">
+        <div class="container-footer">
+            <div class="grade">
+                <div class="colunas"> 
+                    <h4><a href="QuemSomos.html">Quem somos</a></h4>
+                    <p><a href="formulario.html">Seja um membro</a></p>
+                    <p>Produtos</p>
+                    <p>Política de privacidade</p>
+                    <p>Campanhas Sociais</p>
+                </div>
+                <div class="colunas">
+                   <h4><a href="QuemSomos.html">Quem somos</a></h4>
+                    <p><a href="formulario.html">Seja um membro</a></p>
+                    <p>Produtos</p>
+                    <p>Política de privacidade</p>
+                    <p>Campanhas Sociais</p>
+                </div>
+                <div class="colunas">
+                   <h4><a href="QuemSomos.html">Quem somos</a></h4>
+                    <p><a href="formulario.html">Seja um membro</a></p>
+                    <p>Produtos</p>
+                    <p>Política de privacidade</p>
+                    <p>Campanhas Sociais</p>
+                </div>
+                <div class="colunas">
+                   <h4><a href="QuemSomos.html">Quem somos</a></h4>
+                    <p><a href="formulario.html">Seja um membro</a></p>
+                    <p>Produtos</p>
+                    <p>Política de privacidade</p>
+                    <p>Campanhas Sociais</p>
+                </div>
+            </div>
+        </div>
+</footer>
+</body>
+</html>
